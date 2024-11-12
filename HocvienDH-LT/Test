@@ -1,0 +1,12 @@
+package Bai10;
+
+public class Test {
+public static void main(String[] args) {
+	HocvienDH dh = new HocvienDH();
+	dh.nhapTT();
+	dh.inTT();
+	HocvienLT lt = new HocvienLT();
+	lt.nhapTT();
+	lt.inTT();
+}
+}
