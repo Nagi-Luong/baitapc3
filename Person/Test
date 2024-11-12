@@ -1,0 +1,26 @@
+package bai1;
+
+public class Test {
+ public static void main(String[] args) {
+	Person ps = new Person();
+	
+		
+		//gan gia tri
+		ps.setName("Luong");
+		ps.setDob("4/5/2005");
+		ps.setPob("TN");
+		ps.setGender('M');
+		ps.setEmail("aaaaa@gmail.com");
+		ps.setPhone("0123456789");
+		//goi gia tri
+		System.out.println("name:" + ps.getName());
+		System.out.println("day of birth: " + ps.getDob());
+		System.out.println("place of birth: " + ps.getPob());
+		System.out.println("gender: " + ps.getGender());
+		System.out.println("email: "+ ps.getEmail());
+		System.out.println("phone: " + ps.getPhone());
+		//xuat du lieu
+		System.out.println(ps.toString());
+	}
+    
+}
