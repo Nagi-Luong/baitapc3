@@ -1,0 +1,13 @@
+package bai3;
+
+import bai2.Address;
+
+public class Test {
+public static void main(String[] args) {
+	 
+	Address ad = new Address("A","T","P","X");
+	NhanVien nv = new NhanVien("Nagi",ad,"4/5",'N');
+	System.out.println(ad);
+	System.out.println(nv);
+	}
+}
