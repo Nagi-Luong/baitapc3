@@ -1,0 +1,13 @@
+package bai11;
+
+public class Test {
+public static void main(String[] args) {
+	GVCoHuu ch = new GVCoHuu();
+	ch.nhapThongTin();
+	ch.inTT();
+	GVThinhGiang tg = new GVThinhGiang();
+	tg.nhapTT();
+	tg.inTT();
+
+}
+}
